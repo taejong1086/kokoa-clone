@@ -8,12 +8,14 @@
 </head>
 <body>
     <form action="">
-        <input placeholder="name" type="text"/>
-        <input placeholder="last Name" type="text"/>
-        <input placeholder="UserName" type="text"/>
-        <input placeholder="password" type="password"/>
+        <label for="profile">Profile Photo</label>
+        <input id="profile" type="file" accept=".pdf, images/*">
+        <input required placeholder="name" type="text"/>
+        <input required placeholder="last Name" type="text"/>
+        <input required placeholder="UserName" type="text"/>
+        <input required placeholder="password" minlength="8" type="password"/>
         <input type="color"/>
-        <input type="submit" value="Create Account"/>
+        <input type="submit" value="Submit Button"/>
     </form>
 </body>
 </html>
