@@ -8,15 +8,20 @@
 </head>
 <body>
     <form action="">
-        <!-- lable의 for와 input의 id를 같이 명시하면 label클릭할 때, 해당 기능이 동작한다. -->
-        <label for="profile">Profile Photo</label>
-        <input id="profile" type="file" accept=".pdf, images/*">   
-        <input required placeholder="name" type="text"/>
-        <input required placeholder="last Name" type="text"/>
-        <input required placeholder="UserName" type="text"/>
-        <input required placeholder="password" minlength="8" type="password"/>
-        <input type="color"/>
-        <input type="submit" value="Submit Button"/>
+        <!-- div 태그를 대체할 수 있다. 
+        div id="header" 등으로 과거에 사용했으나 의미적인 태그를 사용하는게 더 명시적이고 요즘 작성 방식이다.-->
+        <header>
+            <h1>test</h1>
+        </header>
+        <main>
+            <p>Hello~</p>
+            <!-- span 짧은 text -->
+            <span>hello!!!</span>
+            <address>경기도 성남시 분당구</address>
+        </main>
+        <footer>
+            &copy; 2024.01.16
+        </footer>
     </form>
 </body>
 </html>
